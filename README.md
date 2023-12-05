@@ -24,7 +24,6 @@ A aplicação consiste em uma aplicação web para gerenciar catálogo de jogos 
 
 - SQLite
 
-<!--
 # Como executar o projeto
 
 ## Back end
@@ -46,18 +45,29 @@ Pré-requisitos: npm / yarn
 
 ```bash
 # clonar repositório
-git clone URL
+git clone https://github.com/luisviniciusdev/EntregaFinalA3
 
-# entrar na pasta do projeto front end web
-cd front-web
+# entrar na pasta do projeto frontend
+cd src/frontend/mygamelist
 
 # instalar dependências
 npm install
 
-# executar o projeto
-yarn start
+# executar o frontend
+npm start
+
+# voltar para a raiz do projeto
+cd ../..
+
+# entrar na pasta do projeto backend
+cd src/backend
+
+# instalar dependências
+npm install
+
+# executar o backend
+npm start
 ```
--->
 
 # Autor
 
