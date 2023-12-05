@@ -1,0 +1,11 @@
+td {
+    text-align: start;
+    border-bottom: inset;
+    padding: 14px;
+}
+
+.table-img {
+    max-width: 20px;
+    height: 20px;
+    cursor: pointer;
+}

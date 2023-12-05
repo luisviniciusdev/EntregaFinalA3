@@ -1,0 +1,22 @@
+@media screen and (max-width: 1024px) {
+    #header-logo {
+        margin: 0px 0px 0px 20px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    #header {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #header-logo {
+        margin: 20px 0px;
+    }
+}
+
+@media screen and (max-width: 363px) {
+    .header-item {
+        margin: 15px;
+    }
+}

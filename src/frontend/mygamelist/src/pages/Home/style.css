@@ -1,0 +1,132 @@
+/* MAIN HOME */
+
+#main-home {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.main-home-title {
+    font: 500 50px 'Poppins', sans-serif;
+    line-height: 80px;
+}
+
+.main-home-title span {
+    color: #1892f7;
+}
+
+#main-home-text {
+    margin-top: 30px;
+    font: 300 20px 'Poppins', sans-serif;
+    line-height: 25px;
+    max-width: 600px;
+}
+
+#main-home-button {
+    margin-top: 35px;
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 40px;
+    font: 400 20px 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+.main-home-button-link {
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+#main-home-img {
+    max-width: 450px;
+    max-height: 300px;
+}
+
+/* BENEFITS SECTION */
+
+#benefits {
+    margin-top: 120px;
+}
+
+#benefits-title {
+    font: 500 24px 'Poppins', sans-serif;
+    color: #1892f7;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#benefits-box {
+    display: flex;
+    flex-direction: row;
+}
+
+.benefits-item {
+    background-color: var(--secondary-color);
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+    border: solid var(--primary-color) 1px;
+    border-radius: 15px;
+    min-width: none;
+}
+
+.benefits-item-title {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.benefits-item-text {
+    margin-top: 15px;
+    font: 300 16px 'Poppins', sans-serif;
+    line-height: 25px;
+    
+    text-align: center;
+}
+
+/* AVALIATIONS */
+
+#avaliations {
+    margin-top: 120px;
+}
+
+#avaliations-title {
+    font: 500 24px 'Poppins', sans-serif;
+    color: #1892f7;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#avaliations-principal-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 45px;
+}
+
+#avaliations-img {
+    max-height: 450px;
+}
+
+#avaliations-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.avaliations-item {
+    background-color: #292b37;
+    padding: 20px;
+    margin-top: 30px;
+    border: solid var(--primary-color) 1px;
+    border-radius: 15px;
+}
+
+.avaliations-item p {
+    margin-top: 30px;
+    font: 300 16px 'Poppins', sans-serif;
+    line-height: 25px;
+    max-width: 500px;
+}

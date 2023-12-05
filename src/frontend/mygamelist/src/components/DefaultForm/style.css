@@ -1,0 +1,25 @@
+/* DEFAULT FORM */
+
+#form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#form-area {
+    background-color: var(--secondary-color);
+    border: solid var(--primary-color) 1px;
+    border-radius: 15px;
+    padding: 60px;
+}
+
+#form-logo {
+    font: 600 60px 'Poppins';
+}
+
+#form-logo-link {
+    text-decoration: none;
+    color: white;
+}

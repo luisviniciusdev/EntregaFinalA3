@@ -1,0 +1,47 @@
+.section {
+    margin-top: 60px;
+}
+
+.section-title {
+    font: 400 20px 'Poppins', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.input-area {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.input-item label {
+    font: 400 16px 'Poppins', sans-serif;
+}
+
+.input-item input {
+    font: 300 12px 'Poppins', sans-serif;
+    height: 30px;
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    max-width: 150px;
+    font: 400 12px Poppins-Regular;
+    border: 1px solid var(--black);
+}
+
+.table {
+    margin: 60px auto 0px;
+    width: 100%;
+    background-color: var(--secondary-color);
+    padding: 30px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    max-width: 1120px;
+    word-break: break-all;
+}
+
+th {
+    text-align: start;
+    border-bottom: inset;
+    padding: 14px;
+}

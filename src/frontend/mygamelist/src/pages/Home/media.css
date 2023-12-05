@@ -1,0 +1,34 @@
+@media screen and (max-width: 1024px) {
+    #main-home {
+        padding: 0px 20px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    #benefits, #avaliations {
+        margin-top: calc(120px / 1.5);
+    }
+
+    #main-home-article,
+    #avaliations-img {
+        display: none;
+    }
+
+    #main-home-aside {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 15px;
+    }
+
+    #benefits-box {
+        flex-direction: column;
+    }
+
+    #avaliations {
+        padding: 15px;
+    }
+
+    ;
+}

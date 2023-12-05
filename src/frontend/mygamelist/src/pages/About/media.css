@@ -1,0 +1,5 @@
+@media screen and (max-width: 1024px) {
+    #main-about, #main-about-img {
+        padding: 20px;
+    }
+}

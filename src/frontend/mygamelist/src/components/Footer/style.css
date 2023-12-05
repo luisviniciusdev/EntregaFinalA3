@@ -1,0 +1,12 @@
+/* FOOTER */
+
+#footer {
+    margin-top: 120px;
+    padding: 30px auto;
+    border-top: solid var(--primary-color) 1px;
+}
+
+#footer-text {
+    text-align: center;
+    padding: 60px 0px;
+}
