@@ -24,6 +24,8 @@ A aplicação consiste em uma aplicação web para gerenciar catálogo de jogos 
 
 - SQLite
 
+# Como executar o projeto
+
 ```bash
 # clonar repositório
 git clone https://github.com/luisviniciusdev/EntregaFinalA3
